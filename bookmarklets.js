@@ -30,7 +30,6 @@ BOOKMARKLETS.push({
     document.head.appendChild(a)
   }
 });
-});
 
 BOOKMARKLETS.push({
   label: 'Wappalyzer',
