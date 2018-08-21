@@ -8,19 +8,6 @@ BOOKMARKLETS.push({
 });
 
 BOOKMARKLETS.push({
-  label: 'Readability.com',
-  source: 'https://www.readability.com/bookmarklets',
-  fun: function() {
-    var baseUrl = '//www.readability.com';
-    var s = document.createElement('script');
-    s.setAttribute('type', 'text/javascript');
-    s.setAttribute('charset', 'UTF-8');
-    s.setAttribute('src', baseUrl + '/bookmarklet/read.js');
-    document.documentElement.appendChild(s);
-  }
-});
-
-BOOKMARKLETS.push({
   label: 'ng-stats',
   source: 'https://github.com/kentcdodds/ng-stats',
   fun: function() {
