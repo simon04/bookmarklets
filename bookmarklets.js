@@ -11,10 +11,12 @@ BOOKMARKLETS.push({
   label: 'ng-stats',
   source: 'https://github.com/kentcdodds/ng-stats',
   fun: function() {
-    var a = document.createElement("script");
-    a.src = "https://rawgit.com/kentcdodds/ng-stats/master/dist/ng-stats.js";
-    a.onload=function(){window.showAngularStats()};
-    document.head.appendChild(a)
+    var a = document.createElement('script');
+    a.src = 'https://rawgit.com/kentcdodds/ng-stats/master/dist/ng-stats.js';
+    a.onload = function() {
+      window.showAngularStats();
+    };
+    document.head.appendChild(a);
   }
 });
 
